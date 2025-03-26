@@ -72,7 +72,7 @@ function Mercurio() {
 
         <i>
           Fonte:{" "}
-          <a href="https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)">
+          <a target="_blank" href="https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)">
             Wikipedia
           </a>
         </i>

@@ -72,7 +72,7 @@ function Marte() {
 
         <i>
           Fonte:{" "}
-          <a href="https://pt.wikipedia.org/wiki/Marte_(planeta)">Wikipedia</a>
+          <a target="_blank" href="https://pt.wikipedia.org/wiki/Marte_(planeta)">Wikipedia</a>
         </i>
 
         <Button

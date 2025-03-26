@@ -72,7 +72,7 @@ function Saturno() {
 
         <i>
           Fonte:{" "}
-          <a href="https://pt.wikipedia.org/wiki/Saturno_(planeta)">
+          <a target="_blank" href="https://pt.wikipedia.org/wiki/Saturno_(planeta)">
             Wikipedia
           </a>
         </i>

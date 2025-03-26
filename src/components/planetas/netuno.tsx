@@ -71,7 +71,7 @@ function Netuno() {
 
         <i>
           Fonte:{" "}
-          <a href="https://pt.wikipedia.org/wiki/Netuno_(planeta)">Wikipedia</a>
+          <a target="_blank" href="https://pt.wikipedia.org/wiki/Netuno_(planeta)">Wikipedia</a>
         </i>
 
         <Button 

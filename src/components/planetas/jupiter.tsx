@@ -72,7 +72,7 @@ function Jupiter() {
 
         <i>
           Fonte:{" "}
-          <a href="https://pt.wikipedia.org/wiki/J%C3%BApiter_(planeta)">
+          <a target="_blank" href="https://pt.wikipedia.org/wiki/J%C3%BApiter_(planeta)">
             Wikipedia
           </a>
         </i>
