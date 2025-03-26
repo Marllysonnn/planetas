@@ -1,0 +1,59 @@
+main {
+    display: grid;
+    grid-template-columns: 0.8fr 1.6fr 1.2fr;
+    margin-top: 24px;
+    margin: auto;
+
+    .informacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .imagens {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        img {
+            width: 70%;
+        }
+
+        .geo {
+            width: 15%;
+            position: absolute;
+            rotate: 32deg;
+            margin-right: 130px;
+            margin-top: 10%;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 0 24px;
+        line-height: 14px;
+
+
+        h1 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 18px;
+            height: 200px;
+            line-height: 35px;
+        }
+
+        i {
+            text-align: start;
+
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+}

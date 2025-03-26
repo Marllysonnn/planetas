@@ -1,0 +1,49 @@
+@import url(../../App.scss);
+
+%flex-center {
+    display: flex;
+    align-items: center;
+  }
+
+header{
+    @extend %flex-center;
+    justify-content: space-between;
+    border-bottom: solid var(--color-details) 1px;
+
+    nav{
+        @extend %flex-center;
+        gap: 32px;
+
+        a{
+            padding: 8px 0;
+            font-size: 20px;
+            font-variant: small-caps;
+            letter-spacing: 1px;
+            border-top: solid transparent 3px;
+        }
+        a:nth-child(1):hover{
+            border-top: solid var(--color-mercurio) 3px;
+        }
+        a:nth-child(2):hover{
+            border-top: solid var(--color-venus) 3px;
+        }
+        a:nth-child(3):hover{
+            border-top: solid var(--color-terra) 3px;
+        }
+        a:nth-child(4):hover{
+            border-top: solid var(--color-marte) 3px;
+        }
+        a:nth-child(5):hover{
+            border-top: solid var(--color-jupiter) 3px;
+        }
+        a:nth-child(6):hover{
+            border-top: solid var(--color-saturno) 3px;
+        }
+        a:nth-child(7):hover{
+            border-top: solid var(--color-urano) 3px;
+        }
+        a:nth-child(8):hover{
+            border-top: solid var(--color-netuno) 3px;
+        }
+    }    
+}

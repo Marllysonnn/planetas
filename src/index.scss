@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/img/background-stars.svg');
+}
+
+:root{
+  --color-text: #FFFFFF;
+  --color-details: #ffffff75;
+  --color-none: #00000000;
+  --color-mercurio: #6E6E6E;
+  --color-venus: #F1D58D;
+  --color-terra: #1E90FF;
+  --color-marte: #FF4500;
+  --color-jupiter: #D3A45A;
+  --color-saturno: #F4A300;
+  --color-urano: #66C2FF;
+  --color-netuno: #4B78B4;
+}
+
+@font-face {
+  font-family: "Antonio";
+  src: url('../public/fonts/Antonio/Antonio-VariableFont_wght.ttf');
+}
+
+*{
+  font-family: "Antonio";
+  color: var(--color-text);
+  text-decoration: none;
+}
+

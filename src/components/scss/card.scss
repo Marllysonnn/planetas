@@ -1,0 +1,19 @@
+@import './button.scss';
+
+.info{
+    @extend %button;
+    text-align: start;
+    padding-left: 22px;
+    cursor: auto;
+
+    h3{
+        margin: 0;
+        font-weight: 300;
+        color: var(--color-details);
+    }
+
+    h1{
+        margin: 0;
+        font-weight: 600;
+    }
+} 

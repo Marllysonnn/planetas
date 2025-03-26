@@ -1,0 +1,56 @@
+@import url(/src/index.scss);
+
+%button {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: solid var(--color-details) 1px;
+    margin: 0;
+    align-self: center;
+    overflow: hidden;
+    margin-top: 12px;
+    text-overflow: ellipsis;
+    background-color: var(--color-none);
+    cursor: pointer;
+}
+
+button {
+    @extend %button
+}
+
+button:focus {
+    font-weight: 600;
+    color: black;
+}
+
+.button-mercurio:focus, .button-mercurio:hover {
+    background-color: var(--color-mercurio);
+}
+
+.button-venus:focus, .button-venus:hover {
+    background-color: var(--color-venus);
+}
+
+.button-terra:focus, .button-terra:hover {
+    background-color: var(--color-terra);
+}
+
+.button-marte:focus, .button-marte:hover {
+    background-color: var(--color-marte);
+}
+
+.button-jupiter:focus, .button-jupiter:hover {
+    background-color: var(--color-jupiter);
+}
+
+.button-saturno:focus, .button-saturno:hover {
+    background-color: var(--color-saturno);
+}
+
+.button-urano:focus, .button-urano:hover {
+    background-color: var(--color-urano);
+}
+
+.button-netuno:focus, .button-netuno:hover {
+    background-color: var(--color-netuno);
+}
