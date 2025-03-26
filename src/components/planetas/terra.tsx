@@ -72,7 +72,7 @@ function Terra() {
         )}
 
         <i>
-          Fonte: <a href="https://pt.wikipedia.org/wiki/Terra">Wikipedia</a>
+          Fonte: <a target="_blank" href="https://pt.wikipedia.org/wiki/Terra">Wikipedia</a>
         </i>
 
         <Button
