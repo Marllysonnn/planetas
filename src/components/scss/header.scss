@@ -84,7 +84,7 @@ header {
       right: 0;
       transform: translateX(100%);
       gap: 16px;
-      padding: 12px 40px;
+      padding: 8px 40px;
       background-color: #011738f1;
       border-radius: 25px 0 0 25px;
       transition: transform 0.3s ease-in-out;
@@ -97,27 +97,35 @@ header {
 
       a:nth-child(1):hover {
         border-bottom: solid var(--color-mercurio) 3px;
+        border-top: none;
       }
       a:nth-child(2):hover {
         border-bottom: solid var(--color-venus) 3px;
+        border-top: none;
       }
       a:nth-child(3):hover {
         border-bottom: solid var(--color-terra) 3px;
+        border-top: none;
       }
       a:nth-child(4):hover {
         border-bottom: solid var(--color-marte) 3px;
+        border-top: none;
       }
       a:nth-child(5):hover {
         border-bottom: solid var(--color-jupiter) 3px;
+        border-top: none;
       }
       a:nth-child(6):hover {
         border-bottom: solid var(--color-saturno) 3px;
+        border-top: none;
       }
       a:nth-child(7):hover {
         border-bottom: solid var(--color-urano) 3px;
+        border-top: none;
       }
       a:nth-child(8):hover {
         border-bottom: solid var(--color-netuno) 3px;
+        border-top: none;
       }
     }
 
