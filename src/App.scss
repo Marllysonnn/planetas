@@ -40,3 +40,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 460px) {
+  .App {
+    width: -webkit-fill-available;
+    margin: 16px;
+  }
+}

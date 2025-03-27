@@ -57,3 +57,75 @@ main {
         }
     }
 }
+
+@media (max-width: 460px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        width: 100%;
+    
+        .informacao {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 2px;
+            column-gap: 15px;
+            margin-top: 30px;
+
+            .info{
+                width: auto;
+            }
+
+            h3{
+                font-size: 16px;
+            }
+
+            h1{
+                font-size: 28px;
+            }
+        }
+    
+        .imagens {
+            width: 100%;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+    
+            .geo {
+                width: 15%;
+                position: absolute;
+                rotate: 32deg;
+                margin-right: 130px;
+                margin-top: 10%;
+            }
+        }
+    
+        .text {
+            display: flex;
+            flex-direction: column;
+            margin: 52px 24px;
+            line-height: 14px;
+            gap: 12px;
+    
+            h1 {
+                font-size: 45px;
+                margin: 0;
+            }
+    
+            p {
+                text-align: justify;
+                font-size: 18px;
+                line-height: 35px;
+                height: auto;
+            }
+    
+            i {
+                text-align: start;
+    
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -18,13 +18,13 @@ function Saturno() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '420px'}} 
+            style={{width: '85%'}} 
             src="/img/planet-saturn.svg" 
             alt="Saturno" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '420px'}}
+            style={{width: '85%'}}
             id="inner"
             src="/img/planet-saturn-internal.svg"
             alt="Estrutura interna"
@@ -32,7 +32,7 @@ function Saturno() {
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '250px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-saturn.webp"
             alt="Geologia de Saturno"

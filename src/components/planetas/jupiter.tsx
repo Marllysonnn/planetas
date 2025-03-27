@@ -18,13 +18,13 @@ function Jupiter() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '450px'}} 
+            style={{width: '90%'}} 
             src="/img/planet-jupiter.svg" 
             alt="Júpiter" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '450px'}}
+            style={{width: '90%'}}
             id="inner"
             src="/img/planet-jupiter-internal.svg"
             alt="Estrutura interna"
@@ -32,7 +32,7 @@ function Jupiter() {
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '250px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-jupiter.webp"
             alt="Geologia de Júpiter"

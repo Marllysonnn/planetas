@@ -18,13 +18,13 @@ function Netuno() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '230px'}} 
+            style={{width: '48%'}} 
             src="/img/planet-neptune.svg" 
             alt="netuno" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '230px'}}
+            style={{width: '48%'}}
             id="inner"
             src="/img/planet-neptune-internal.svg"
             alt="Estrutura interna de Netuno"
@@ -32,7 +32,7 @@ function Netuno() {
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '230px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-neptune.webp"
             alt="Geologia de Netuno"

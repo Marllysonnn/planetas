@@ -18,13 +18,13 @@ function Urano() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '260px'}} 
+            style={{width: '55%'}} 
             src="/img/planet-uranus.svg" 
             alt="urano" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '260px'}}
+            style={{width: '55%'}}
             id="inner"
             src="/img/planet-uranus-internal.svg"
             alt="Estrutura interna de Urano"
@@ -32,7 +32,7 @@ function Urano() {
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '210px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-uranus.webp"
             alt="Geologia de Urano"

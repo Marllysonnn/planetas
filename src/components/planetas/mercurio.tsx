@@ -18,14 +18,14 @@ function Mercurio() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img 
-            style={{width: '145px'}}
+            style={{width: '30%'}}
             src="/img/planet-mercury.svg" 
             alt="mercury" />
         )}
         {textoAtual === "internamente" && (
           <img
             id="inner"
-            style={{width: '145px'}}
+            style={{width: '30%'}}
             src="/img/planet-mercury-internal.svg"
             alt="Estrutura interna"
           />
@@ -33,7 +33,7 @@ function Mercurio() {
         {textoAtual === "geologia" && (
           <img
             className="geo"
-            style={{width: '145px'}}
+            style={{width: '8em'}}
             src="/img/geology-mercury.webp"
             alt="Geologia da mercury"
           />

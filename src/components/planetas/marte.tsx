@@ -18,13 +18,13 @@ function Marte() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '220px'}} 
+            style={{width: '45%'}} 
             src="/img/planet-mars.svg" 
             alt="Marte" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '220px'}}
+            style={{width: '45%'}}
             id="inner"
             src="/img/planet-mars-internal.svg"
             alt="Estrutura interna"
@@ -32,7 +32,7 @@ function Marte() {
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '220px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-mars.webp"
             alt="Geologia de Marte"

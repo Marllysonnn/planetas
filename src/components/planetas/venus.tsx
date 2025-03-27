@@ -17,20 +17,20 @@ function Venus() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '230px'}} 
+            style={{width: '48%'}} 
             src="/img/planet-venus.svg" 
             alt="terra" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '230px'}} 
+            style={{width: '48%'}} 
             id="inner" 
             src="/img/planet-venus-internal.svg" 
             alt="geologia" />
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '230px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-venus.webp"
             alt="imagem geologia"

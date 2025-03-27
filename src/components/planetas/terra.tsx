@@ -18,13 +18,13 @@ function Terra() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '290px'}} 
+            style={{width: '50%'}} 
             src="/img/planet-terra.svg" 
             alt="Terra" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '290px'}}
+            style={{width: '50%'}}
             id="inner"
             src="/img/planet-terra-internal.svg"
             alt="Estrutura interna"
@@ -32,7 +32,7 @@ function Terra() {
         )}
         {textoAtual === "geologia" && (
           <img
-            style={{width: '240px'}}
+            style={{width: '8em'}}
             className="geo"
             src="/img/geology-terra.webp"
             alt="Geologia da Terra"
