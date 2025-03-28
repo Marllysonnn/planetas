@@ -18,13 +18,13 @@ function Jupiter() {
       <div className="imagens">
         {textoAtual !== "internamente" && (
           <img
-            style={{width: '90%'}} 
+            style={{width: '85%'}} 
             src="/img/planet-jupiter.svg" 
             alt="Júpiter" />
         )}
         {textoAtual === "internamente" && (
           <img
-            style={{width: '90%'}}
+            style={{width: '85%'}}
             id="inner"
             src="/img/planet-jupiter-internal.svg"
             alt="Estrutura interna"

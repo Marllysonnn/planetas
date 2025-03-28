@@ -30,18 +30,18 @@ function Header() {
       <h1>PLANETAS</h1>
 
       <menu id="menu" ref={menuIconRef} onClick={() => setMenuAberto(!menuAberto)}>
-        <img src="/img/menu.png" alt="" />
+        <img src="/img/menu.png" alt="Menu" />
       </menu>
 
       <nav ref={menuRef} className={menuAberto ? "menu-aberto" : "menu-fechado"}>
-        <Link to="/mercurio">Mercurio</Link>
-        <Link to="/venus">Vênus</Link>
-        <Link to="/terra">Terra</Link>
-        <Link to="/marte">Marte</Link>
-        <Link to="/jupiter">Júpiter</Link>
-        <Link to="/saturno">Saturno</Link>
-        <Link to="/urano">Urano</Link>
-        <Link to="/netuno">Netuno</Link>
+        <Link to="/mercurio" onClick={() => setMenuAberto(false)}>Mercúrio</Link>
+        <Link to="/venus" onClick={() => setMenuAberto(false)}>Vênus</Link>
+        <Link to="/" onClick={() => setMenuAberto(false)}>Terra</Link>
+        <Link to="/marte" onClick={() => setMenuAberto(false)}>Marte</Link>
+        <Link to="/jupiter" onClick={() => setMenuAberto(false)}>Júpiter</Link>
+        <Link to="/saturno" onClick={() => setMenuAberto(false)}>Saturno</Link>
+        <Link to="/urano" onClick={() => setMenuAberto(false)}>Urano</Link>
+        <Link to="/netuno" onClick={() => setMenuAberto(false)}>Netuno</Link>
       </nav>
     </header>
   );

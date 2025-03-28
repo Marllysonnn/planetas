@@ -12,7 +12,7 @@ const AppRoute = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/terra" element={<Terra />} />
+                <Route path="/" element={<Terra />} />
                 <Route path="/venus" element={<Venus />} />
                 <Route path="/mercurio" element={<Mercurio />} />
                 <Route path="/jupiter" element={<Jupiter />} />
