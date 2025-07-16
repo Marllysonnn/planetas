@@ -13,7 +13,7 @@ main {
     .imagens {
         height: fit-content;
         display: grid;
-        align-items: center;
+        align-self: center;
         justify-items: center;
         animation: shake 2.5s infinite linear;
         z-index: 99;
